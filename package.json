@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://THE-DaD.github.io/-l",
+  "homepage": "https://liorsal.github.io/",
   "dependencies": {
     "cors": "^2.8.5",
     "cra-template": "1.2.0",
