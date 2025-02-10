@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-color: #001120;
+    color: #eee;
+  }
+  
+  /* Container for the entire page */
+  .form-page-container {
+    padding: 20px;
+  }
+  
+  /* Main title */
+  .form-title {
+    text-align: center;
+    color: #000;
+  }
+  
+  /* Main form wrapper */
+  .form-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    color: #333;
+  }
+  
+  /* Section titles */
+  .section-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #202c36;
+  }
+  
+  /* Form layout */
+  .form-section {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #202c36;
+    font-size: 14px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  /* Layout helpers */
+  .form-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .form-subrow {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .full-width-input {
+    width: 100%;
+  }
+  
+  /* Option pills (could be replaced by radio/checkbox inputs) */
+  .option-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .option-pill {
+    background: #f0f0f0;
+    padding: 8px 12px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Fieldset styles for ABCDE subsections */
+  .form-subsection {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+  }
+  
+  .form-subsection legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2937;
+  }
+  
+  /* Instructions */
+  .instructions {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Sub-titles */
+  .sub-title {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #1f2937;
+  }
+  
+  /* Saturation group (specific styling) */
+  .saturation-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .saturation-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Buttons */
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .submit-button {
+    background-color: #0ea5e9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .submit-button:hover {
+    background-color: #0284c7;
+  }
+  
+  .reset-button,
+  .evac-button,
+  .add-med-button {
+    background-color: #e5e7eb;
+    color: #111827;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .reset-button:hover,
+  .evac-button:hover,
+  .add-med-button:hover {
+    background-color: #d1d5db;
+  }
+  
+  /* Evacuation buttons row */
+  .evac-buttons {
+    gap: 10px;
+  }
+  
+  .evac-button.danger {
+    background: red;
+    color: #fff;
+  }
+  
+  .evac-button.danger:hover {
+    background: #b30000;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .form-row, .form-subrow {
+      flex-direction: column;
+    }
+  }
+  
